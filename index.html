@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Davies Precious's Profile Card</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="content">
+        <div class="time-section">
+          <h1 class="time"></h1>
+        </div>
+        <div
+          style="
+            position: relative;
+            padding-top: 30px;
+            display: inline-flex;
+            justify-content: center;
+          "
+        >
+          <div class="img-container">
+            <img
+              src="./photo_120x120.jpg"
+              data-testid="profilePicture"
+              alt="Profile picture"
+              class="profile-picture"
+            />
+          </div>
+          <div class="verify">
+            <i style="color: green" class="fa-solid fa-circle-check"></i>
+          </div>
+        </div>
+        <div class="info">
+          <h1 class="heading" data-testid="fullName">Davies Precious</h1>
+          <h1 class="title" data-testid="jobTitle">Front-end Developer</h1>
+          <h1 class="email" data-testid="emailAddress">
+            preshydave.d5@gmail.com
+          </h1>
+          <h1 class="location" data-testid="currentLocation">Abuja, Nigeria</h1>
+          <h1 class="bio" data-testid="shortBio">
+            I'm a skilled and passionate Front-end Developer with 2 years
+            working experience. I am a graduate of Federal University of
+            Technology, Minna in Project Management. I have a strong knowledge
+            in HTML, CSS & JavaScript, with knowledge in JavaScript frameworks
+            like ReactJS & NextJS. I also have some knowledge in version
+            control. I look forward to learning from my team members and from
+            the experts
+          </h1>
+          <div>
+            <div class="social-container">
+              <a
+                href="https://github.com/Preshstiks"
+                target="_blank"
+                data-testid="socialLinks"
+                class="social-link"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/precious-davies-1786a9238/"
+                target="_blank"
+                data-testid="socialLinks"
+                class="social-link"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://x.com/DaviesPreciou12"
+                target="_blank"
+                class="social-link"
+                data-testid="socialLinks"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/davies.precious.10"
+                data-testid="socialLinks"
+                target="_blank"
+                class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/865861193c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
